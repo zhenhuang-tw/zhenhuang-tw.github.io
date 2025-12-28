@@ -1,32 +1,38 @@
 {
   "common": {
     "name": { "zh": "黃振", "en": "Zane Huang" },
-    "title": { "zh": "法律與科技", "en": "Law & Tech" },
+    "title": { "zh": "Zane Huang", "en": "黃振" },
     "email": "",
     "github": "https://github.com/huang-zane",
-    "linkedin": "https://linkedin.com/in/",
+    "linkedin": "#!",
     "blog": "https://zanehuang.com/blog",
     "repoHub": "https://github.com/huang-zane?tab=repositories",
-    "image": "images/profile.jpg"
+    "image": "profile.jpg"
   },
   "about": {
-    "zh": "因為線上遊戲想要自學程式的小小網頁工程師，被教育法吸引，逐漸變成公法人的樣子。",
-    "en": "A self-taught web developer sparked by online gaming, drawn into Education Law, and evolving into a Public Law scholar. "
+    "zh": "受線上遊戲啟發，想自學網頁開發的人，如今逐漸走進公法學，興趣在教育法。",
+    "en": "A self-taught web development enthusiast inspired by online gaming, now transitioning into public law with a research focus on education law."
   },
   "publications": [
     {
       "year": "2024",
       "title_en": "",
       "title_zh": "國民中小學學生參與學校行政在CRC與憲法上的保障",
-      "publisher": "",
-      "link": "#",
-      "grant": ""
+      "publisher": "《第一屆台日五校研討暨交流活動》，國立臺北大學法律學院主辦，新北市"
     },
     {
-      "year": "",
+      "year": "2025",
+      "title_en": "Protection of Primary and High School Students’ Participation in School Administration: Focusing on the Education Freedom of Information",
+      "title_zh": "中小學生參與學校行政之保障──以教育資訊公開為中心",
+      "publisher": "國家科學及技術委員會補助大專學生研究計畫",
+      "link": "https://wsts.nstc.gov.tw/STSWeb/Award/AwardMultiQuery.aspx?year=113&code=QS05&organ=A,FA13,FA13E010",
+      "grant": "113-2813-C-305-019-H"
+    },
+    {
+      "year": "2025",
       "title_en": "",
-      "title_zh": "",
-      "publisher": "",
+      "title_zh": "從憲法與兒童權利公約，論中小學生參與學校行政的保障內涵",
+      "publisher": "《典｜範？－學生自治的回顧與展望》，社團法人臺灣學生自治學會主辦，臺北市",
       "link": ""
     }
   ],
@@ -56,14 +62,21 @@
       "role_en": "Chief Student Judge",
       "org_zh": "臺北大學學生法院",
       "org_en": "Student Judiciary, NTPU",
-      "term": "2023 - 2025"
+      "term": "Nov 2023 - Jun 2025"
     },
     {
       "role_zh": "秘書長",
       "role_en": "Secretary General",
       "org_zh": "臺北大學三峽校區學生議會",
       "org_en": "Student Congress (Sanxia), NTPU",
-      "term": "2025 - Present"
+      "term": "Jul 2025 - Present"
+    },
+    {
+      "role_zh": "秘書長",
+      "role_en": "Secretary General",
+      "org_zh": "臺北大學學生自治會總會",
+      "org_en": "Student Headquarters, NTPU",
+      "term": "Nov 2025 - Present"
     }
   ],
   "legalExp": [
@@ -71,23 +84,30 @@
       "title_zh": "申訴評議決定書草擬",
       "title_en": "Drafting Student Appeal Decisions",
       "desc_zh": "協助草擬校內學生申訴評議決定書。",
-      "desc_en": "Drafting legal decisions."
+      "desc_en": "Served as a work-study student in the Office of Student Affairs at NTPU, assisting in drafting review decisions for student appeals within the university."
     }
   ],
   "projects": [
     {
       "name": "Shared Tools",
-      "desc_en": "Repo.",
+      "desc_en": "JavaScript tools that can merge and convert PDFs, as well as format Chinese OCR text.",
       "desc_zh": "原生 JS 小工具，可以合併、轉換 PDF 還有排版中文 OCR 文字。",
       "tags": ["JavaScript"],
       "link": "https://huang-zane.github.io/shared-tools"
     },
     {
-      "name": "Test Name",
-      "desc_en": "Test.",
-      "desc_zh": "測試。",
-      "tags": ["Nuxt.js", "Vibe coding", "Tailwind"],
-      "link": "#"
+      "name": "taiwan-law-journal-csl",
+      "desc_en": "The CSL citation styles of law journals in Taiwan.",
+      "desc_zh": "臺灣法律學常見引註格式的 CSL 檔案。",
+      "tags": ["CSL"],
+      "link": "https://github.com/huang-zane/taiwan-law-journal-csl"
+    },
+    {
+      "name": "NSTC Law Journal Citation Style CSL",
+      "desc_en": "The Citation Style Language (CSL) file for the Law Journal Citation Style Example (法學期刊引註格式凡例).",
+      "desc_zh": "由台灣四本 TSSCI 第一級法律學期刊共同研擬之《法學期刊引註格式凡例》 CSL 檔案。",
+      "tags": ["CSL"],
+      "link": "https://github.com/huang-zane/csl-nstc-law"
     }
   ]
 }
